@@ -18,7 +18,6 @@ project(monero-java-jni)
 #############
 
 set(MONERO_CPP "${CMAKE_SOURCE_DIR}/external/monero-cpp")
-message(STATUS MONERO_CPP : ${MONERO_CPP} : ${MONERO_CPP})
 
 set(MONERO_CPP_SRC "${MONERO_CPP}/src")
 set(MONERO_PROJECT ${MONERO_CPP}/external/monero-project)
